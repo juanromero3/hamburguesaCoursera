@@ -14,6 +14,7 @@
 		F3C154B31CA70929001745B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C154B11CA70929001745B5 /* LaunchScreen.storyboard */; };
 		F3C154BE1CA70929001745B5 /* hamburguesasPorElMundo_courseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C154BD1CA70929001745B5 /* hamburguesasPorElMundo_courseraTests.swift */; };
 		F3C154C91CA70929001745B5 /* hamburguesasPorElMundo_courseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C154C81CA70929001745B5 /* hamburguesasPorElMundo_courseraUITests.swift */; };
+		F3C154D71CA70B28001745B5 /* datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C154D61CA70B28001745B5 /* datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F3C154C41CA70929001745B5 /* hamburguesasPorElMundo.courseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamburguesasPorElMundo.courseraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C154C81CA70929001745B5 /* hamburguesasPorElMundo_courseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburguesasPorElMundo_courseraUITests.swift; sourceTree = "<group>"; };
 		F3C154CA1CA70929001745B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C154D61CA70B28001745B5 /* datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = datos.swift; path = ../datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F3C154AF1CA70929001745B5 /* Assets.xcassets */,
 				F3C154B11CA70929001745B5 /* LaunchScreen.storyboard */,
 				F3C154B41CA70929001745B5 /* Info.plist */,
+				F3C154D61CA70B28001745B5 /* datos.swift */,
 			);
 			path = hamburguesasPorElMundo.coursera;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C154D71CA70B28001745B5 /* datos.swift in Sources */,
 				F3C154AB1CA70929001745B5 /* ViewController.swift in Sources */,
 				F3C154A91CA70929001745B5 /* AppDelegate.swift in Sources */,
 			);
