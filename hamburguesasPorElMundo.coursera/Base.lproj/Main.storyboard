@@ -28,27 +28,27 @@
                                     <action selector="obtenPaisYhamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pB-hY-HYn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKJ-lI-bfO">
-                                <rect key="frame" x="140" y="222" width="54.5" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nb-vH-jmA">
+                                <rect key="frame" x="16" y="380" width="169" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nb-vH-jmA">
-                                <rect key="frame" x="68" y="386" width="169" height="32.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKJ-lI-bfO">
+                                <rect key="frame" x="16" y="186" width="54.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="K95-NJ-cQG" firstAttribute="top" secondItem="5Nb-vH-jmA" secondAttribute="bottom" constant="149.5" id="9N0-85-lp9"/>
                             <constraint firstItem="pms-GK-4fm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="DVf-49-lhh"/>
-                            <constraint firstItem="5Nb-vH-jmA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="IUX-mk-hE0"/>
-                            <constraint firstItem="WKJ-lI-bfO" firstAttribute="top" secondItem="JkM-NT-obW" secondAttribute="bottom" constant="202" id="hUM-lE-isD"/>
-                            <constraint firstItem="WKJ-lI-bfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="124" id="rhu-QU-am3"/>
+                            <constraint firstItem="K95-NJ-cQG" firstAttribute="top" secondItem="5Nb-vH-jmA" secondAttribute="bottom" constant="155.5" id="Gcp-Tf-AKY"/>
+                            <constraint firstItem="WKJ-lI-bfO" firstAttribute="top" secondItem="JkM-NT-obW" secondAttribute="bottom" constant="166" id="NMk-ht-GUh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5Nb-vH-jmA" secondAttribute="leading" id="Qwo-e9-WTU"/>
                             <constraint firstItem="pms-GK-4fm" firstAttribute="top" secondItem="JkM-NT-obW" secondAttribute="bottom" constant="46" id="vvy-sf-QwV"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="WKJ-lI-bfO" secondAttribute="leading" id="y9o-5J-ISy"/>
                         </constraints>
                     </view>
                     <connections>
